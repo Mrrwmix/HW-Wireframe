@@ -1,0 +1,19 @@
+<style>
+        body {
+            background-color:darkgrey;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        article {
+            background-color: darkgrey;
+        }
+</style>
