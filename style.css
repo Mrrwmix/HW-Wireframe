@@ -7,7 +7,13 @@ body {
     font-size: 18px;
     text-align: center;
 }
-header {
+.block {
+    background: #ebebeb;
+    width: 495px;
+    text-align: center;
+    margin: auto;
+}
+/* header {
     background: #ebebeb;
     width: 495px;
     text-align: center;
@@ -25,17 +31,18 @@ section {
     float: left;
     margin: auto;
 }
+*/
 article {
     background: #777;
     margin: auto;
 }
-aside {
+/* aside {
     background: #ebebeb;
     width: 495px;
     float: left;
     margin: auto;
 
-}
+} */
 .inversion {
     background: #777;
     color: #ebebeb;
@@ -44,11 +51,12 @@ aside {
 .centerLine {
     float: left;
 }
-footer {
+/* footer {
     background: #ebebeb;
     width: 495px;
     margin: auto;
 }
+*/
 h1 {
     color: #777;
     background: #ebebeb;
