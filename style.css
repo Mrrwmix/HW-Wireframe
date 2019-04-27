@@ -13,37 +13,24 @@ body {
     width: 495px;
     text-align: center;
     margin: auto;
-}
-/* header {
-    background: #ebebeb;
-    width: 495px;
-    text-align: center;
-    margin: auto;
-}
-nav {
-    background: #ebebeb;
-    width: 495px;
-    text-align: center;
-    margin: auto;
-}
-section {
-    background: #ebebeb;
-    width: 495px;
     float: left;
-    margin: auto;
+    margin-bottom: 10px;
 }
-*/
+/* section {
+    padding: 20px 200px;
+} */
 article {
     background: #777;
+    padding: 20px 100px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin: auto;
 }
-/* aside {
+.right {
+    float: right;
+    padding: 20px 100px;
     background: #ebebeb;
-    width: 495px;
-    float: left;
-    margin: auto;
-
-} */
+}
 .inversion {
     background: #777;
     color: #ebebeb;
@@ -52,12 +39,11 @@ article {
 .centerLine {
     float: left;
 }
-/* footer {
-    background: #ebebeb;
-    width: 495px;
-    margin: auto;
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
 }
-*/
 h1 {
     color: #777;
     background: #ebebeb;
